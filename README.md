@@ -21,3 +21,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## 2. Run docker
 
 ```docker run -p <your_localhost_port>:80 <image_id>```
+
+#### Deploy fails with Aws::S3::Errors::SignatureDoesNotMatch
+- replace ```secure: $AWS_SECRET_KEY``` with ```secret_acces_key: $AWS_SECRET_KEY```
+- https://travis-ci.community/t/deploy-fails-with-aws-signaturedoesnotmatch/5835
