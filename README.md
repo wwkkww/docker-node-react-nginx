@@ -12,7 +12,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 3. get container id from ```docker ps```
 4. run  ```docker exec -it <container_id> npm run test```
 
-## Use NGINX server for production build
+## For Production build using NGINX server
 
 ## 1. Build docker image
 
